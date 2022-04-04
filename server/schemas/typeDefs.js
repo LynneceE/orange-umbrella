@@ -21,14 +21,15 @@ type Book {
     title: String
 }
 
-input BookInput {
-    bookId: String
-    authors: [String]
-    title: String
-    description: String
-    image: String
-    link: String
-  }
+input savedBook {
+  description: String
+  title: String
+  bookId: String
+  image: String
+  link: String
+  authors: [String]
+}
+
 
 
 type Query {
