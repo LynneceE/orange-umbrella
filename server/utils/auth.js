@@ -13,9 +13,9 @@ module.exports = {
     return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
   },
 
-  // function for our authenticated routes
+ 
   authMiddleware: function ({ req }) {
-    // allows token to be sent via  req.query or headers
+   
     let token = req.query.token || req.query.token || req.headers.authorization;
 
     // ["Bearer", "<tokenvalue>"]
@@ -27,7 +27,7 @@ module.exports = {
       return req;
     }
 
-    // verify token and get user data out of it
+   
     try {
       const { data } = jwt.verify(token, secret, { maxAge: expiration });
       req.user = data;
@@ -35,7 +35,7 @@ module.exports = {
       console.log('Invalid token');
     }
 
-    // return updated request object
+ 
   return req;
 }
 };
