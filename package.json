@@ -1,5 +1,5 @@
 {
-  "name": "googlebooks-app",
+  "name": "orange-umbrella",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -15,7 +15,12 @@
   "devDependencies": {
     "concurrently": "^5.1.0"
   },
-  "dependencies": {
-    
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LynneceE/orange-umbrella.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LynneceE/orange-umbrella/issues"
+  },
+  "homepage": "https://github.com/LynneceE/orange-umbrella#readme"
 }
