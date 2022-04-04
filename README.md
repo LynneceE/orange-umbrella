@@ -1,12 +1,8 @@
 # Book Search Engine 
 
-#                        !! READ THIS !!
+This is a Book Search application where users can find books and save them. If you're a book worm you can build a collection of books to read to last a while.
 
-This application was built as a homework asssignment. It should include a heroku deployment that is not available at this time. The build has been rejected multiple times despite efforts to fix it. I am still working on figuring out what's wrong.
-
-
-All that is available of this work currently is this Github repo.
-
+Heroku Deployment: https://aqueous-hollows-33128.herokuapp.com/
 
 
 # Tech Used 
@@ -46,6 +42,12 @@ Mongoose
 
 
 3: npm start to run the server 
+
+
+
+# Heroku
+
+https://aqueous-hollows-33128.herokuapp.com/
 
 
 
